@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Banner</title>
+    <style>
+        .floating-banner {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #03C75A;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            font-size: 16px;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .floating-banner a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            background-color: #ff8441;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .floating-banner a:hover {
+            background-color: #d96d2d;
+        }
+    </style>
+</head>
+<body>
+    <div class="floating-banner">
+        <a href="네이버플레이스링크" target="_blank">네이버 플레이스</a>
+        <a href="tel:01012345678">☎ 전화 문의</a>
+    </div>
+</body>
+</html>
